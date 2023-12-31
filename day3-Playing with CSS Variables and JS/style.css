@@ -7,8 +7,8 @@
 }
 
 :root{
-    --spacing: 10px;
-    --blur: 10px;
+    --spacing: 0px;
+    --blur: 0px;
     --base: #ac1919;
 }
 
@@ -35,6 +35,7 @@ h2{
 }
 
 img{
+    max-width: 100%;
     padding: var(--spacing);
     background: var(--base);
     filter: blur(var(--blur));
